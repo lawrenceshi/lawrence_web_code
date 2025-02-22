@@ -6,35 +6,53 @@
 -->
 <html>
 	<head>
-		<title>Dimension by HTML5 UP</title>
+		<title id = "title">Lawrence's Web - 成功没有捷径</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!--icon-->
+		<link rel="icon" href="https://sc.cdn.lawrenceshi.space/favicon.ico">
+		<style>
+			#language-select {
+			  position: absolute;
+			  top: 10px;
+			  right: 10px;
+			  width: 15%;
+			}
+		  </style>
+
 	</head>
 	<body class="is-preload">
-
+		
+		<script>console.log("Hello World");
+		
+		</script>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon fa-diamond"></span>
+							<span class="icon fa-terminal"></span>
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Dimension</h1>
-								<p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-								for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+								<h1 id = "h1_title">Lawrence's Personal Web</h1>
+								<p id = "slogan-1">--成功没有捷径--</p>
 							</div>
 						</div>
+						<select id="language-select">
+							<option value="zh-CN">中文</option>
+							<option value="en-US">English</option>
+							<option value="zh-TW">繁體中文</option>
+						  </select>
 						<nav>
 							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
+								<li><a href="#intro" id = "intro_href">介绍</a></li>
+								<li><a href="#blog" id = "blog_href">博客</a></li>
+								<li><a href="#about"id = "about_href">关于</a></li>
+								<li><a href="#contact" id = "contact_href">联系我</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
 						</nav>
@@ -47,15 +65,14 @@
 							<article id="intro">
 								<h2 class="major">Intro</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+								<p id = "intro-1">介绍</p>
 							</article>
 
-						<!-- Work -->
-							<article id="work">
+						<!-- Blog -->
+							<article id="blog">
 								<h2 class="major">Work</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
+								<p></p>
 								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
 							</article>
 
@@ -343,7 +360,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; HTML5 UP &copy; 2025 lawrenceshi.space Based On: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright"><a href="https://beian.miit.gov.cn/" id = "icpjs">苏ICP备2023007722号-1</a>    <a href="https://beian.mps.gov.cn/#/query/webSearch?code=32068202000419" rel="noreferrer" target="_blank">
+							<img src="https://sc.cdn.lawrenceshi.space/beian_logo.png" alt="苏公网安备32068202000419号_logo" width="16" height="16">
+							苏公网安备32068202000419号
+						</a></p>
 					</footer>
 
 			</div>
@@ -357,6 +378,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+				<!--lang组件-->
+				<script src="assets/js/lang.js"></script>
+				<!--其余零散js-->
+				<script src="assets/js/other.js"></script>
 	</body>
 </html>
+<!--end of all-->
+<!---->
