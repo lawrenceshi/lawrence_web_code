@@ -6,3 +6,6 @@
 基于 html5up 的 dimension 模板修改。
 
 
+请前往[lawrenceshi.space][1]或使用[llls.top][跳转]
+[1]https://lawrenceshi.space
+[2]https://llls.top
